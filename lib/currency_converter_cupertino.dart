@@ -12,6 +12,13 @@ class _CurrencyConverterCupertinoState
     extends State<CurrencyConverterCupertino> {
   final TextEditingController textEditingController = TextEditingController();
   double result = 0;
+
+  @override
+  void dispose() {
+    textEditingController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
