@@ -7,4 +7,11 @@ This is a repo for my projects that I am building by following youtube tutorials
 
 # This is how the app looks at the moment :
 
-![image](https://github.com/Shishir3D/learning_flutter/assets/66148659/ca5b06ed-3201-47d2-a1ac-ecc08e44cdbd)
+### Material Version :
+
+![image](https://github.com/user-attachments/assets/17abce9a-7fc2-484a-9c47-23926ff55cc1)
+
+
+### Cupertino Version :
+![image](https://github.com/user-attachments/assets/c25e6021-0e0b-4b59-94f3-1da33350b3c5)
+
