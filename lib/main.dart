@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyCupertinoApp());
   //change 'MyApp()' to 'MyCupertinoApp()' to switch to cupertino design
 }
 

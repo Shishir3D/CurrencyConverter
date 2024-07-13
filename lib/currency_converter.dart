@@ -47,7 +47,7 @@ class _CurrencyConverterMaterialStatePage extends State<CurrencyConverter> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              '\$ ${result > 10000000 ? "😒" : result != 0 ? result.toStringAsFixed(2) : result.toStringAsFixed(0)}',
+              'रु ${result > 10000000 ? "😒" : result != 0 ? result.toStringAsFixed(2) : result.toStringAsFixed(0)}',
               style: const TextStyle(
                 color: Colors.white,
                 fontSize: 50,
@@ -63,8 +63,8 @@ class _CurrencyConverterMaterialStatePage extends State<CurrencyConverter> {
                   color: Colors.black,
                 ),
                 decoration: InputDecoration(
-                  hintText: "NPR to USD",
-                  prefixIcon: const Icon(Icons.currency_rupee_outlined),
+                  hintText: "USD to NPR",
+                  prefixIcon: const Icon(Icons.monetization_on_sharp),
                   prefixIconColor: Colors.green,
                   filled: true,
                   fillColor: Colors.white,

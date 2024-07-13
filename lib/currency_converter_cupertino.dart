@@ -39,7 +39,7 @@ class _CurrencyConverterCupertinoState
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              '\$ ${result > 10000000 ? "😒" : result != 0 ? result.toStringAsFixed(2) : result.toStringAsFixed(0)}',
+              'रु ${result > 10000000 ? "😒" : result != 0 ? result.toStringAsFixed(2) : result.toStringAsFixed(0)}',
               style: const TextStyle(
                 color: CupertinoColors.white,
                 fontSize: 50,
@@ -59,8 +59,8 @@ class _CurrencyConverterCupertinoState
                   borderRadius: BorderRadius.circular(5),
                   color: CupertinoColors.white,
                 ),
-                placeholder: "Enter amount in NPR",
-                prefix: const Icon(CupertinoIcons.money_dollar_circle),
+                placeholder: "USD to NPR",
+                prefix: const Icon(CupertinoIcons.money_dollar_circle_fill),
                 keyboardType: TextInputType.number,
               ),
             ),
