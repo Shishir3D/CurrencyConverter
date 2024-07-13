@@ -2,8 +2,9 @@
 
 This is a repo for my projects that I am building by following youtube tutorials.
 
-<h2> <a href = "https://www.youtube.com/watch?v=CzRQ9mnmh44&ab_channel=RivaanRanawat" target="_blank"> The video I am following </a>
+<h2> <a href = "https://www.youtube.com/watch?v=CzRQ9mnmh44&ab_channel=RivaanRanawat" target="_blank"> The video I am following </a> </h2>
 
+<h2> <a href= "https://github.com/Shishir3D/CurrencyConverter/raw/main/Currency%20Converter.apk"> Click me 🦆 to Download the App 📱</h2>
 
 # This is how the app looks at the moment :
 
